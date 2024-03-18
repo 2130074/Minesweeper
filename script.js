@@ -373,3 +373,17 @@ let sonido_ganador = new Audio("sonido_ganador.ogg")
         }
       }
     }
+
+   function mostrarInfo() {
+    swal.fire({
+      title: "Cómo jugar al Buscaminas",
+      html: `
+        <p>El objetivo del juego es descubrir todas las casillas que no contienen minas.</p>
+        <p>Al hacer clic en una casilla, se revelará su contenido. Si encuentras una mina, pierdes el juego.</p>
+        <p>Puedes marcar las casillas que creas que contienen minas con banderas, haciendo clic derecho sobre ellas.</p>
+        <p>Descubre todas las casillas sin minas para ganar el juego. ¡Buena suerte!</p>
+      `,
+      confirmButtonText: "Entendido",
+    });
+  }
+  
