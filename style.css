@@ -1,55 +1,58 @@
 * {
-    transition: all 1s;
-    box-sizing: border-box;
-  }
+      transition: all 1s;
+      box-sizing: border-box;
+    }
 
-  body {
-    text-align: center;
-    font-family: calibri;
-    margin: 0;
-    padding: 0;
-    user-select: none;
-    background: lightsteelblue;
-  }
+    body {
+      text-align: center;
+      font-family: calibri;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      background: #ffc1d5;
+    }
 
-  table {
-    background: slategray;
-    margin: 20px auto;
-  }
+    table {
+      background: #f74780;
+      margin: 20px auto;
+    }
 
-  td {
-    border: rgba(0, 0, 0, 0.25) 1px solid;
-    text-align: center;
-    font-size: 120%;
-    color: white;
-  }
+    td {
+      border: rgba(0, 0, 0, 0.25) 1px solid;
+      text-align: center;
+      font-size: 120%;
+      color: white;
+    }
 
-  #juego-nuevo,
-  td,
-  #minas,
-  #Ajustes {
-    box-shadow: inset 3px 3px 0 0 rgba(255, 255, 255, 0.5),
-      inset -3px -3px 0 0 rgba(0, 0, 0, 0.5);
-  }
+    #juego-nuevo,
+    td,
+    #minas,
+    #Ajustes {
+      box-shadow: inset 3px 3px 0 0 rgba(255, 255, 255, 0.5),
+        inset -3px -3px 0 0 rgba(0, 0, 0, 0.5);
+    }
 
-  #juego-nuevo,
-  #minas,
-  #Ajustes {
-    padding: 10px;
-    margin: 10px;
-  }
+    #juego-nuevo,
+    #minas,
+    #Ajustes {
+      padding: 10px;
+      margin: 10px;
+    }
 
-  #juego-nuevo {
-    background: skyblue;
-    cursor: pointer;
-  }
+    #juego-nuevo {
+      background: #fa8fb1;
+      cursor: pointer;
+      border-radius: 5%;
+    }
 
-  #minas {
-    background: black;
-    color: red;
-  }
+    #minas {
+      background: #ffe4ec;
+      color: red;
+      border-radius: 20%;
+    }
 
-  #Ajustes {
-    background: #eee;
-    cursor: pointer;
-  }
+    #Ajustes {
+      background: #ffe4ec;
+      cursor: pointer;
+      border-radius: 20%;
+    }

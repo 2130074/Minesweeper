@@ -7,9 +7,9 @@ let sonido_ganador = new Audio("sonido_ganador.ogg")
     let sonido_abrirarea = new Audio("sonido_abrirarea.ogg")
     let sonido_marca = new Audio("sonido_marca.ogg")
 
-    let filas = 20
-    let columnas = 20
-    let lado = 30
+    let filas = 5
+    let columnas = 5
+    let lado = 35
 
     let marcas = 0
 
